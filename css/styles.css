@@ -2845,8 +2845,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #1D809F;
-  --bs-btn-border-color: #1D809F;
+  --bs-btn-bg: #23895d ;
+  --s-btn-border-color: #23895d ;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #196d87;
   --bs-btn-hover-border-color: #17667f;
@@ -8088,6 +8088,11 @@ textarea.form-control-lg {
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-green {
+  --bs-text-opacity: 1;
+  color: #23895d !important;
+}
+
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
@@ -8161,12 +8166,17 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #f3e8d9 !important;
 }
 
 .bg-creme {
   --bs-bg-opacity: 1;
   background-color: #F5F5DB !important;
+}
+
+.bg-green {
+  --bs-bg-opacity: 1;
+  background-color: #23895d !important;
 }
 
 .bg-dark {
@@ -10992,7 +11002,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #F5F5DB;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }

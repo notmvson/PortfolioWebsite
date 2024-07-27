@@ -39,9 +39,9 @@
             </div>
         </header>
         <!-- About-->
-        <section class="content-section bg-light" id="about">
+        <section class="content-section bg-creme" id="about">
             <div class="container px-4 px-lg-5">
-                <!-- Row for About Me header-->
+                <!-- Row for header-->
                 <div class="row justify-content-center">
                     <div class="col-lg-10 text-center">
                         <h2>About Me</h2>
@@ -132,90 +132,94 @@
                     </div>
                     <!-- Project 4-->
                     <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
+                        <a class="portfolio-item" href="https://www.youtube.com/watch?v=xm3YgoEiEDc&ab_channel=10Hours" target="_blank">
                             <div class="caption">
                                 <div class="caption-content">
                                     <div class="h2"></div>
                                     <p class="mb-0"></p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="picture that reads coming soon" />
+                            <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="image that reads coming soon" />
                         </a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Resume-->
-        <section class="content-section bg-primary text-white text-center" id="resume">
+        <section class="content-section bg-creme" id="resume">
             <div class="container px-4 px-lg-5">
-                <div class="content-section-heading">
-                    <h3 class="text-secondary mb-0">Services</h3>
-                    <h2 class="mb-5">What We Offer</h2>
-                </div>
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-screen-smartphone"></i></span>
-                        <h4><strong>Responsive</strong></h4>
-                        <p class="text-faded mb-0">Looks great on any screen size!</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
-                        <h4><strong>Redesigned</strong></h4>
-                        <p class="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
-                        <h4><strong>Favorited</strong></h4>
-                        <p class="text-faded mb-0">
-                            Millions of users
-                            <i class="fas fa-heart"></i>
-                            Start Bootstrap!
-                        </p>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
-                        <h4><strong>Question</strong></h4>
-                        <p class="text-faded mb-0">I mustache you a question...</p>
+                <!-- Row for header-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>Resume</h2>
                     </div>
                 </div>
+                <!-- Row for pdf img-->
+                <div class="row gx-4 gx-lg-5 justify-content-center align-items-center mt-4">
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="assets/img/resume.jpg" alt="image of a downloadable resume
+                        including education, work history, projects, and technical skills" />
+                    </div>
+                </div>
+                <!-- Row for pdf download link-->
+                <div class="row gx-4 gx-lg-5 justify-content-center align-items-center mt-4">
+                    <div class="col-md-6 d-flex justify-content-center align-items-center">
+                        <p>Click <a href="assets/resume.pdf" download="MasonKong_Resume.pdf" target="_blank">HERE</a> to download</p>
+                    </div>
+                </div>
+                
+                
             </div>
         </section>
-        <!-- Callout-->
-        <section class="callout">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mx-auto mb-5">
-                    Welcome to
-                    <em>your</em>
-                    next website!
-                </h2>
-                <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
-            </div>
-        </section>
-        
-        <!-- Call to Action-->
-        <section class="content-section bg-primary text-white">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-                <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
-                <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
+        <!-- Contact Me-->
+        <section class="content-section bg-creme" id="contact">
+            <div class="container px-4 px-lg-5">
+                <!-- Row for header-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+                <!-- Row for form-->
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">I'll get back to you as soon as I can!</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Leave a message:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                      </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">I agree to being contacted</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer text-center">
+        <footer class="footer text-center bg-green">
             <div class="container px-4 px-lg-5">
+                <!-- Row for header-->
+                <div class="row justify-content-center mb-3">
+                    <div class="col-lg-10 text-center">
+                        <h2>Let's connect!</h2>
+                    </div>
+                </div>
                 <ul class="list-inline mb-5">
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-facebook"></i></a>
+                        <a class="social-link rounded-circle text-green mr-3" href="https://www.linkedin.com/in/mvsonkong/" target="_blank"><i class="icon-social-linkedin"></i></a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
+                        <a class="social-link rounded-circle text-green mr-3" href="https://github.com/notmvson?tab=repositories" target="_blank"><i class="icon-social-github"></i></a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
+                        <a class="social-link rounded-circle text-green mr-3" href="https://www.instagram.com/notmvsonkong/" target="_blank"><i class="icon-social-instagram"></i></a>
                     </li>
                     
                 </ul>
-                <p class="text-muted small mb-0">Copyright &copy; Your Website 2023</p>
             </div>
         </footer>
         <!-- Scroll to Top Button-->
